@@ -1,3 +1,16 @@
-.nav li.wsite-menu-item-wrap#active > a, .nav li.wsite-menu-subitem-wrap#active > a, .nav li.wsite-menu-item-wrap > a:hover, .nav li.wsite-menu-subitem-wrap > a:hover{ 
-	background: #45b33d; 
+.logo{
+		padding-right: 25px;
+		vertical-align: middle;
+		color: #ffffff;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 24px;
+		font-weight: normal;
+		line-height: normal;
+}
+
+a:hover{
+	background: #45b33d;
+}
+a:active{
+	background: #45b33d;	
 }

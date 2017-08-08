@@ -30,39 +30,41 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
 	<link rel="manifest" href="favicons/manifest.json">
 </head>
-
 <style type="text/css" media="screen">
-
 	.logo{
-		padding-right: 25px;
-		vertical-align: middle;
-		color: #ffffff;
 		font-family: 'Fjalla One', sans-serif;
-		font-size: 24px;
-		font-weight: normal;
-		line-height: normal;
+		font-size: 25px;
+		text-transform: uppercase;
+	}	
+
+	body{
+		font-family: Lato;
+	}
+	li{
+		text-transform: uppercase;
+	}
+	li:hover{
+		background: #45b33d;
+	}
+	.activeTab{
+		background: #45b33d;
 	}
 
-	.nav li.wsite-menu-item-wrap#active > a, .nav li.wsite-menu-subitem-wrap#active > a, .nav li.wsite-menu-item-wrap > a:hover, .nav li.wsite-menu-subitem-wrap > a:hover{ 
-		background: #45b33d; 
-	}
-	
 </style>
-
 <body>
 	<!--Navigation Bar-->
   	<nav class="black darken-2">
 		<div class="nav-wrapper">
-			<div>
+			<div class="nav">
 				<a href="#!" style="padding-left: 40px;" class="logo">PJ Brion Official Website</a>	
 				<ul id="nav-mobile" class="right hide-on-med-and-down" style="padding-right: 40px;">
-			        <li id="active" class="wsite-menu-item-wrap" style="position: relative;">
-			        	<a href="#">Home</a>
+			        <li class="activeTab" style="position: relative;">
+			        	<a href="index.html">Home</a>
 			        </li>
-			        <li class="wsite-menu-item-wrap" style="position: relative;">
+			        <li style="position: relative;">
 			        	<a href="#">About</a>
 			        </li>
-			        <li class="wsite-menu-item-wrap" style="position: relative;">
+			        <li  style="position: relative;">
 			        	<a href="#">Contact</a>
 			        </li>
 		    	</ul>
