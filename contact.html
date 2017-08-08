@@ -73,14 +73,14 @@
 			<div class="nav">
 				<a href="#!" style="padding-left: 40px;" class="logo">PJ Brion Official Website</a>	
 				<ul id="nav-mobile" class="right hide-on-med-and-down" style="padding-right: 40px;">
-			        <li class="activeTab" style="position: relative;">
+			        <li style="position: relative;">
 			        	<a href="index.html">Home</a>
 			        </li>
 			        <li style="position: relative;">
 			        	<a href="#">About</a>
 			        </li>
-			        <li style="position: relative;">
-			        	<a href="contact.html">	Contact</a>
+			        <li class="activeTab" style="position: relative;">
+			        	<a href="contact.html">Contact</a>
 			        </li>
 		    	</ul>
 			</div>
@@ -88,23 +88,80 @@
   	</nav>
 
   	<!--Main Body-->
-	 <div id="index-banner" class="parallax-container">
-	    <div class="section no-pad-bot">
-	      <div class="container">
-	        <br><br>
-	        <h1 class="header center teal-text text-lighten-3">Various Journeys of Peter Joshua's Life</h1>
-	        <div class="row center">
-	          <h5 class="header col s12 light white-text">In this website, this author will write everything about his journeys in life and, that person will try to work in his daily life.</h5>
+	 <div class="container">
+	    <div class="row">
+	        <div class="col m10 offset-m1 s12">
+	            <h2 class="center-align">Contact Form</h2>
+	            <div class="row">
+	                <form class="col s12">
+	                    <div class="row">
+	                        <div class="input-field col m6 s12">
+	                            <input id="first_name" type="text" class="validate">
+	                            <label for="first_name">First Name</label>
+	                        </div>
+	                        <div class="input-field col m6 s12">
+	                            <input id="last_name" type="text" class="validate">
+	                            <label for="last_name">Last Name</label>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                        <div class="input-field col s12">
+	                          <textarea id="message" class="materialize-textarea"></textarea>
+	                          <label for="message">Message</label>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                        <div class="input-field col s12">
+	                          <label>How Did You Find Us?</label>
+	                          <br/>
+	                        </div>
+	                        <div class="input-field col m3 s6 center-align">
+	                          <input name="group1" type="radio" id="google" />
+	                          <label for="google">Google</label>
+	                        </div>
+	                        <div class="input-field col m3 s6 center-align">
+	                          <input name="group1" type="radio" id="customer" />
+	                          <label for="customer">Customer</label>
+	                        </div>
+	                        <div class="input-field col m3 s6 center-align">
+	                          <input name="group1" type="radio" id="store" />
+	                          <label for="store">Store</label>
+	                        </div>
+	                        <div class="input-field col m3 s6 center-align">
+	                          <input name="group1" type="radio" id="other" />
+	                          <label for="other">Other</label>
+	                        </div>
+	                    </div>
+	                    <div class="divider"></div>
+	                    <div class="row">
+	                        <div class="input-field col s12">
+	                          <label>Communication Preferences</label>
+	                          <br/>
+	                        </div>
+	                        <div class="input-field col m4 s12 center-align">
+	                          <input name="group2" type="checkbox" id="emailComm" />
+	                          <label for="emailComm">Email</label>
+	                        </div>
+	                        <div class="input-field col m4 s12 center-align">
+	                          <input name="group2" type="checkbox" id="callComm" />
+	                          <label for="callComm">Call Me</label>
+	                        </div>
+	                        <div class="input-field col m4 s12 center-align">
+	                          <input name="group2" type="checkbox" id="newsletter" />
+	                          <label for="newsletter">Newsletter</label>
+	                        </div>
+	                    </div>
+	                    <div class="divider"></div>
+	                    <div class="row">
+	                        <div class="col m12">
+	                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+	                        </div>
+	                    </div>
+	                </form>
+	            </div>
 	        </div>
-	        <div class="row center">
-	          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Go To My Blogs!</a>
-	        </div>
-	        <br><br>
-	      </div>
 	    </div>
-		    <div class="parallax"><img src="http://cdn.demo.fabthemes.com/kansas/files/2012/08/wallpaper-722590cp.jpg" style="display: block; transform: translate3d(-50%, 143px, 0px); opacity: 0.8;"></div>
-	 </div>
-	
+	</div>
 	<!--Footer-->
 	<footer class="page-footer black">
           <div class="container">
