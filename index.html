@@ -39,6 +39,12 @@
 
 	body{
 		font-family: Lato;
+		display: flex;
+	    min-height: 100vh;
+	    flex-direction: column;
+	}
+	main{
+		flex: 1 0 auto;
 	}
 	li{
 		text-transform: uppercase;
@@ -49,6 +55,15 @@
 	.activeTab{
 		background: #45b33d;
 	}
+	.parallax {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    z-index: -1;
+	}
+
 
 </style>
 <body>
@@ -71,6 +86,50 @@
 			</div>
 		</div>
   	</nav>
+
+  	<!--Main Body-->
+	 <div id="index-banner" class="parallax-container">
+	    <div class="section no-pad-bot">
+	      <div class="container">
+	        <br><br>
+	        <h1 class="header center teal-text text-lighten-3">Various Journeys of Peter Joshua's Life</h1>
+	        <div class="row center">
+	          <h5 class="header col s12 light white-text">In this website, this author will write everything about his journeys in life and, that person will try to work in his daily life.</h5>
+	        </div>
+	        <div class="row center">
+	          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Go To My Blogs!</a>
+	        </div>
+	        <br><br>
+	      </div>
+	    </div>
+		    <div class="parallax"><img src="http://cdn.demo.fabthemes.com/kansas/files/2012/08/wallpaper-722590cp.jpg" style="display: block; transform: translate3d(-50%, 143px, 0px); opacity: 0.8;"></div>
+	 </div>
+	
+	<!--Footer-->
+	<footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">About Peter</h5>
+                <p class="grey-text text-lighten-4">He like writing blogs, creating websites, playing onlines, reading some Physics materials, and etc. He is a former Student Ambassador of VR Philippines to Polytechnic University of the Philippines</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright black">
+            <div class="container">
+            © 2017 Peter Joshua Brion
+            <a class="grey-text text-lighten-4 right" href="mailto:peterjoshua.brion@gmail.com">Contact Me!</a>
+            </div>
+          </div>
+        </footer>
 	<!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 </body>
