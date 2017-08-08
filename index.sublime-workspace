@@ -1,0 +1,413 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"char",
+				"charset\tAttr"
+			],
+			[
+				"meta",
+				"meta\t<meta name=\"\" content=\"\">"
+			],
+			[
+				"td",
+				"td\tTag"
+			],
+			[
+				"button",
+				"button\tTag"
+			],
+			[
+				"nav",
+				"nav\tTag"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"span",
+				"span\tTag"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"na",
+				"nav\tTag"
+			],
+			[
+				"links",
+				"links\tlink - stylesheet"
+			],
+			[
+				"hea",
+				"head\tTag"
+			],
+			[
+				"he",
+				"head\t<head>"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"head",
+				"header\t<header>"
+			],
+			[
+				"htm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"mysql",
+				"mysql_query"
+			],
+			[
+				"my",
+				"mysql_close"
+			],
+			[
+				"ech",
+				"echo\techo \"…\""
+			],
+			[
+				"ec",
+				"echo\techo \"…\""
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"h",
+				"href\tAttr"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bold",
+				"bolder"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"r",
+				"rgb()"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "snippet: l",
+		"selected_items":
+		[
+			[
+				"snippet: l",
+				"Snippet: link - stylesheet"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"SNIPPet: <div",
+				"Snippet: <div>"
+			],
+			[
+				"CSS",
+				"Set Syntax: CSS"
+			],
+			[
+				"snippet: php",
+				"Snippet: <?php … ?>"
+			],
+			[
+				"set syntax: php",
+				"Set Syntax: PHP"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/PJ/Web Projects/index.html",
+		"/C/Users/PJ/Documents/Werk/Frank.txt",
+		"/C/Windows/System32/GfxCUIServiceInstall.vbs",
+		"/C/Users/PJ/Downloads/README.R-3.4.0",
+		"/C/Users/PJ/Downloads/pup-progguild.github.io-master/pup-progguild.github.io-master/index.html",
+		"/E/PJ/Web Projects/materialize/css/materialize.css",
+		"/E/PJ/Web Projects/css/bootstrap.css",
+		"/E/PJ/Web Projects/css/styles.css",
+		"/C/xampp/htdocs/Sales Order/index.php",
+		"/C/Users/PJ/Documents/GitHub/web-dev-stuff/Lab Activity #9/index.php",
+		"/C/xampp/htdocs/Sales Order/index.css",
+		"/C/Users/PJ/Documents/GitHub/web-dev-stuff/Lab Activity #9/index.css",
+		"/C/Users/PJ/Documents/Calculator/Homepage.php",
+		"/G/PJWebDev/chcklog.php",
+		"/C/xampp/htdocs/Musicfy/index.php",
+		"/G/kpcgrhynko..vbs",
+		"/C/xampp/htdocs/Musicfy/register.php",
+		"/C/xampp/htdocs/Musicfy/Styles/index.css",
+		"/C/Users/PJ/Downloads/aquablue.sql",
+		"/C/xampp/htdocs/WebDev89/catalog.php",
+		"/G/generica/Catalog.php",
+		"/G/generica/Cart.php",
+		"/C/xampp/htdocs/WebDev89/cart.php",
+		"/C/xampp/htdocs/WebDev89/login.php",
+		"/G/generica/login.php",
+		"/C/xampp/htdocs/WebDev89/register.php",
+		"/G/generica/Admin.php",
+		"/C/xampp/htdocs/WebDev89/admin.php",
+		"/C/xampp/htdocs/WebDev89/index.php",
+		"/G/generica/Register.php",
+		"/G/WebDev89/register.php",
+		"/G/generica/generica.sql",
+		"/C/xampp/htdocs/WebDev9/register.php",
+		"/C/xampp/htdocs/WebDev9/index.php",
+		"/C/xampp/htdocs/WebDev8910/index.php",
+		"/C/xampp/htdocs/WebDev8910/index.css",
+		"/C/xampp/htdocs/WebDev9/index.css",
+		"/C/Users/PJ/Desktop/Sportswear/index.php",
+		"/C/Users/PJ/Desktop/Sportswear/mystyle.css",
+		"/C/Users/PJ/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/PJ/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/G/PJ/WebDev9/login.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"black",
+			"blue",
+			"black",
+			"navbar",
+			"Contact",
+			"()\"</",
+			"\t\t\t\t\t\n",
+			" </",
+			"\t\t\t\t\t\n",
+			"\t\t</",
+			"();"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
