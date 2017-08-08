@@ -3,11 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>
-		PJ Brion Official Website
-	</title>
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<title>PJ Brion Official Website</title>
 	<!--Import Google Icon Font-->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.comicon?family=Material+Icons" rel="stylesheet">
+	<!--Import Font Family-->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
 	<!-- Compiled and minified CSS -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   	<!--Favicon Images-->
@@ -25,23 +29,47 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
 	<link rel="manifest" href="favicons/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
 </head>
+
+<style type="text/css" media="screen">
+
+	.logo{
+		padding-right: 25px;
+		vertical-align: middle;
+		color: #ffffff;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 24px;
+		font-weight: normal;
+		line-height: normal;
+	}
+
+	.nav li.wsite-menu-item-wrap#active > a, .nav li.wsite-menu-subitem-wrap#active > a, .nav li.wsite-menu-item-wrap > a:hover, .nav li.wsite-menu-subitem-wrap > a:hover{ 
+		background: #45b33d; 
+	}
+	
+</style>
+
 <body>
 	<!--Navigation Bar-->
   	<nav class="black darken-2">
 		<div class="nav-wrapper">
-			<a href="#!" style="padding-left: 40px;">PJ Brion Official Website</a>
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
-		        <li class="active"><a href="#" class="black-text">Home</a></li>
-		        <li><a href="#" class="black-text">About</a></li>
-		        <li><a href="#" class="black-text">Contact</a></li>
-	    	</ul>
+			<div>
+				<a href="#!" style="padding-left: 40px;" class="logo">PJ Brion Official Website</a>	
+				<ul id="nav-mobile" class="right hide-on-med-and-down" style="padding-right: 40px;">
+			        <li id="active" class="wsite-menu-item-wrap" style="position: relative;">
+			        	<a href="#">Home</a>
+			        </li>
+			        <li class="wsite-menu-item-wrap" style="position: relative;">
+			        	<a href="#">About</a>
+			        </li>
+			        <li class="wsite-menu-item-wrap" style="position: relative;">
+			        	<a href="#">Contact</a>
+			        </li>
+		    	</ul>
+			</div>
 		</div>
   	</nav>
 	<!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 </body>
-</html>
+</html>	

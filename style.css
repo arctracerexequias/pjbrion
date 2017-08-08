@@ -1,0 +1,3 @@
+.nav li.wsite-menu-item-wrap#active > a, .nav li.wsite-menu-subitem-wrap#active > a, .nav li.wsite-menu-item-wrap > a:hover, .nav li.wsite-menu-subitem-wrap > a:hover{ 
+	background: #45b33d; 
+}
