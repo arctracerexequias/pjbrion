@@ -10,12 +10,14 @@
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.comicon?family=Material+Icons" rel="stylesheet">
 	<!--Import Font Family-->
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans&effect=3d|outline">
+	<link href="https://fonts.googleapis.com/css?family=Hind&amp;subset=devanagari,latin-ext" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-  	<!--Favicon Images-->
-  	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+	<!--Favicon Images-->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
@@ -47,7 +49,7 @@
 		font-family: 'Fjalla One', sans-serif;
 		font-size: 25px;
 		text-transform: uppercase;
-	}	
+	}
 
 	body{
 		font-family: Lato;
@@ -58,7 +60,7 @@
 	main{
 		flex: 1 0 auto;
 	}
-	li{
+	li.menu{
 		text-transform: uppercase;
 	}
 	li:hover{
@@ -75,7 +77,14 @@
 	    bottom: 0;
 	    z-index: -1;
 	}
-
+	.title{
+		font-family: "Droid Sans", sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.sentence{
+		font-family: "Hind", sans-serif;
+	}
 
 </style>
 <body>
@@ -83,15 +92,15 @@
   	<nav class="black darken-2">
 		<div class="nav-wrapper">
 			<div class="nav">
-				<a href="#!" style="padding-left: 40px;" class="logo">PJ Brion Official Website</a>	
+				<a href="#!" style="padding-left: 40px;" class="logo">PJ Brion Official Website</a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down" style="padding-right: 40px;">
-			        <li style="position: relative;">
+			        <li style="position: relative;" class="menu">
 			        	<a href="index.html">Home</a>
 			        </li>
-			        <li style="position: relative;">
-			        	<a href="about.html" class="activeTab">About</a>
+			        <li style="position: relative;" class="menu activeTab">
+			        	<a href="about.html">About</a>
 			        </li>
-			        <li style="position: relative;">
+			        <li style="position: relative;" class="menu">
 			        	<a href="contact.html">Contact</a>
 			        </li>
 		    	</ul>
@@ -100,13 +109,18 @@
   	</nav>
 
   	<!--Main Body-->
-	 <div id="index-banner" class="parallax-container">
+	 <div id="index-banner" class="parallax-container grey lighten-2">
 	    <div class="section no-pad-bot">
 	      <div class="container">
 	        <br><br>
-	        <h1 class="header center black-text text-lighten-3">About Peter Joshua</h1>
+	        <h1 class="header center green-text title font-effect-3d">about peter</h1>
 	        <div class="row">
-	          <p class="header col s12 light black-text">In this website, this author will write everything about his journeys in life and, that person will try to work in his dailye.</p>
+	          	<div class="col l8 offset-12 s12">
+									<p class="sentence">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div class="col l4 offset-12 s12">
+								<img src="">asda
+							</div>
 	        </div>
 	        <br><br>
 	      </div>
@@ -118,7 +132,7 @@
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">Keep in Touch</h5>
-            
+
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Links</h5>
@@ -140,4 +154,4 @@
 	<!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 </body>
-</html>	
+</html>

@@ -10,8 +10,8 @@
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.comicon?family=Material+Icons" rel="stylesheet">
 	<!--Import Font Family-->
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   	<!--Favicon Images-->
@@ -47,7 +47,7 @@
 		font-family: 'Fjalla One', sans-serif;
 		font-size: 25px;
 		text-transform: uppercase;
-	}	
+	}
 
 	body{
 		font-family: Lato;
@@ -58,7 +58,7 @@
 	main{
 		flex: 1 0 auto;
 	}
-	li{
+	li.menu{
 		text-transform: uppercase;
 	}
 	li:hover{
@@ -83,15 +83,15 @@
   	<nav class="black darken-2">
 		<div class="nav-wrapper">
 			<div class="nav">
-				<a href="#!" style="padding-left: 40px;" class="logo">PJ Brion Official Website</a>	
+				<a href="#!" style="padding-left: 40px;" class="logo">PJ Brion Official Website</a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down" style="padding-right: 40px;">
-			        <li style="position: relative;">
+			        <li style="position: relative;" class="menu">
 			        	<a href="index.html">Home</a>
 			        </li>
-			        <li style="position: relative;">
+			        <li style="position: relative;" class="menu">
 			        	<a href="about.html">About</a>
 			        </li>
-			        <li class="activeTab" style="position: relative;">
+			        <li class="activeTab menu" style="position: relative;">
 			        	<a href="contact.html">Contact</a>
 			        </li>
 		    	</ul>
@@ -180,7 +180,7 @@
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">Keep in Touch</h5>
-            
+
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Links</h5>
@@ -202,4 +202,4 @@
 	<!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 </body>
-</html>	
+</html>
