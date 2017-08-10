@@ -7,15 +7,11 @@
 	<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<title>PJ Brion Official Website</title>
-	<!--Import Google Icon Font-->
-	<link href="https://fonts.googleapis.comicon?family=Material+Icons" rel="stylesheet">
-	<!--Import Font Family-->
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-  	<!--Favicon Images-->
-  	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+	<link rel="stylesheet" href="../pjbrion/css/index.css">
+	<!--Favicon Images-->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
@@ -42,42 +38,6 @@
 	</script>
 
 </head>
-<style type="text/css" media="screen">
-	.logo{
-		font-family: 'Fjalla One', sans-serif;
-		font-size: 25px;
-		text-transform: uppercase;
-	}
-
-	body{
-		font-family: Lato;
-		display: flex;
-	    min-height: 100vh;
-	    flex-direction: column;
-	}
-	main{
-		flex: 1 0 auto;
-	}
-	li.menu{
-		text-transform: uppercase;
-	}
-	li:hover{
-		background: #45b33d;
-	}
-	.activeTab{
-		background: #45b33d;
-	}
-	.parallax {
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    right: 0;
-	    bottom: 0;
-	    z-index: -1;
-	}
-
-
-</style>
 <body>
 	<!--Navigation Bar-->
   	<nav class="black darken-2">
@@ -98,7 +58,6 @@
 			</div>
 		</div>
   	</nav>
-
   	<!--Main Body-->
 	 <div class="container" style="height:100%">
 	    <div class="row">
@@ -107,61 +66,21 @@
 	            <div class="row">
 	                <form class="col s12">
 	                    <div class="row">
-	                        <div class="input-field col m6 s12">
-	                            <input id="first_name" type="text" class="validate">
-	                            <label for="first_name">First Name</label>
-	                        </div>
-	                        <div class="input-field col m6 s12">
-	                            <input id="last_name" type="text" class="validate">
-	                            <label for="last_name">Last Name</label>
-	                        </div>
-	                    </div>
-	                    <div class="row">
-	                        <div class="input-field col s12">
-	                          <textarea id="message" class="materialize-textarea"></textarea>
-	                          <label for="message">Message</label>
-	                        </div>
-	                    </div>
-	                    <div class="row">
-	                        <div class="input-field col s12">
-	                          <label>How Did You Find Us?</label>
-	                          <br/>
-	                        </div>
-	                        <div class="input-field col m3 s6 center-align">
-	                          <input name="group1" type="radio" id="google" />
-	                          <label for="google">Google</label>
-	                        </div>
-	                        <div class="input-field col m3 s6 center-align">
-	                          <input name="group1" type="radio" id="customer" />
-	                          <label for="customer">Customer</label>
-	                        </div>
-	                        <div class="input-field col m3 s6 center-align">
-	                          <input name="group1" type="radio" id="store" />
-	                          <label for="store">Store</label>
-	                        </div>
-	                        <div class="input-field col m3 s6 center-align">
-	                          <input name="group1" type="radio" id="other" />
-	                          <label for="other">Other</label>
-	                        </div>
-	                    </div>
-	                    <div class="divider"></div>
-	                    <div class="row">
-	                        <div class="input-field col s12">
-	                          <label>Communication Preferences</label>
-	                          <br/>
-	                        </div>
-	                        <div class="input-field col m4 s12 center-align">
-	                          <input name="group2" type="checkbox" id="emailComm" />
-	                          <label for="emailComm">Email</label>
-	                        </div>
-	                        <div class="input-field col m4 s12 center-align">
-	                          <input name="group2" type="checkbox" id="callComm" />
-	                          <label for="callComm">Call Me</label>
-	                        </div>
-	                        <div class="input-field col m4 s12 center-align">
-	                          <input name="group2" type="checkbox" id="newsletter" />
-	                          <label for="newsletter">Newsletter</label>
-	                        </div>
+												<label for="fname">First Name</label>
+												<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+												<label for="lname">Last Name</label>
+												<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+												<label for="country">Country</label>
+												<select id="country" name="country">
+													<option value="australia">Australia</option>
+													<option value="canada">Canada</option>
+													<option value="usa">USA</option>
+												</select>
+
+												<label for="subject">Subject</label>
+												<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 	                    </div>
 	                    <div class="divider"></div>
 	                    <div class="row">

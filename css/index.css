@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans&effect=3d|outline');
-@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url('https://fonts.googleapis.com/css?family=Hind&amp;subset=devanagari,latin-ext');
 
 .logo{
   font-family: 'Fjalla One', sans-serif;
