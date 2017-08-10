@@ -58,6 +58,12 @@ select.dropdown {
   transition: all 0.3s;
   display: block;
 }
+
+textarea.layout{
+  width: auto;
+  height: 500px;
+}
+
 .headerTitle{
 	font-family: "Droid Sans", sans-serif;
 	text-transform: uppercase;
