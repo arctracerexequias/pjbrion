@@ -7,16 +7,9 @@
 	<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<title>PJ Brion Official Website</title>
-	<!--Import Google Icon Font-->
-	<link href="https://fonts.googleapis.comicon?family=Material+Icons" rel="stylesheet">
-	<!--Import Font Family-->
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"/>
-	<link rel="stylesheet" href="http://cdn.dhtmlx.com/edge/dhtmlx.css" type="text/css">
-	<!-- Compiled JS -->
-	<script src="http://cdn.dhtmlx.com/edge/dhtmlx.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="pjbrion/css/index.css">
 	<!--Favicon Images-->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
@@ -42,54 +35,7 @@
 	  ga('send', 'pageview');
 
 	</script>
-	<script type="text/javascript">
-			$(document).ready(function() {
-				var date = new Date();<br>
-				var d = date.getDate();<br>
-				var m = date.getMonth();<br>
-				var y = date.getFullYear();<br>
-						$('#calendar').fullCalendar({
-							editable: true,
-					    weekMode: 'liquid',
-					    url:'#',
-						})
-			});
-	</script>
 </head>
-<style type="text/css" media="screen">
-	.logo{
-		font-family: 'Fjalla One', sans-serif;
-		font-size: 25px;
-		text-transform: uppercase;
-	}
-
-	body{
-		font-family: Lato;
-		display: flex;
-	    min-height: 100vh;
-	    flex-direction: column;
-	}
-	main{
-		flex: 1 0 auto;
-	}
-	li.menu{
-		text-transform: uppercase;
-	}
-	li:hover{
-		background: #45b33d;
-	}
-	.activeTab{
-		background: #45b33d;
-	}
-	.parallax {
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    right: 0;
-	    bottom: 0;
-	    z-index: -1;
-	}
-</style>
 <body>
 	<!--Navigation Bar-->
   	<nav class="black darken-2">
@@ -133,12 +79,57 @@
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">Calendar</h5>
-						<div id="box" style="position:relative;height:300px;"></div>
-								<script>
-								var myCalendar = new dhtmlXCalendarObject("box");
-								myCalendar.setSkin("material");
-								myCalendar.show();
-								</script>
+						<script type="text/template" id="template-calendar">
+            <div class="clndr-controls">
+                <div class="clndr-previous-button">&lsaquo;</div>
+                <div class="month"><%= intervalStart.format('M/DD') + ' &mdash; ' + intervalEnd.format('M/DD') %></div>
+                <div class="clndr-next-button">&rsaquo;</div>
+            </div>
+            <div class="clndr-grid">
+                <div class="days-of-the-week">
+                <% _.each(daysOfTheWeek, function(day) { %>
+                    <div class="header-day"><%= day %></div>
+                <% }); %>
+                    <div class="days">
+                    <% _.each(days, function(day) { %>
+                        <div class="<%= day.classes %>"><%= day.day %></div>
+                    <% }); %>
+                    </div>
+                </div>
+            </div>
+            <div class="clndr-today-button">Today</div>
+        </script>
+        </div>
+        <div class="cal3">
+        <script type="text/template" id="template-calendar-months">
+            <div class="clndr-controls top">
+                <div class="clndr-previous-button">&lsaquo;</div>
+                <div class="clndr-next-button">&rsaquo;</div>
+            </div>
+            <div class="clearfix">
+            <% _.each(months, function(cal) { %>
+                <div class="cal">
+                    <div class="clndr-controls">
+                        <div class="month"><%= cal.month.format('MMMM') %></div>
+                    </div>
+                    <div class="clndr-grid">
+                        <div class="days-of-the-week">
+                        <% _.each(daysOfTheWeek, function(day) { %>
+                            <div class="header-day"><%= day %></div>
+                        <% }); %>
+                            <div class="days">
+                            <% _.each(cal.days, function(day) { %>
+                                <div class="<%= day.classes %>"><%= day.day %></div>
+                            <% }); %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <% }); %>
+            </div>
+            <div class="clndr-today-button">Today</div>
+        </script>
+
           </div>
           <div class="col l2 offset-9 s12">
             <h5 class="white-text">Links</h5>
@@ -159,5 +150,9 @@
     </footer>
 	<!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clndr/1.4.7/clndr.min.js"></script>
 </body>
 </html>

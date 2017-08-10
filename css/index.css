@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.comicon?family=Material+Icons);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+.logo{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+body{
+  font-family: Lato;
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+  flex: 1 0 auto;
+}
+li.menu{
+  text-transform: uppercase;
+}
+li:hover{
+  background: #45b33d;
+}
+.activeTab{
+  background: #45b33d;
+}
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
