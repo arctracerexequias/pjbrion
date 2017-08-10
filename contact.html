@@ -10,6 +10,7 @@
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 	<link rel="stylesheet" href="../pjbrion/css/index.css">
+
 	<!--Favicon Images-->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
@@ -37,6 +38,12 @@
 
 	</script>
 
+	<script type="text/javascript">
+			$(document).ready(function() {
+					 $('select').material_select();
+				});
+	</script>
+
 </head>
 <body>
 	<!--Navigation Bar-->
@@ -62,34 +69,30 @@
 	 <div class="container" style="height:100%">
 	    <div class="row">
 	        <div class="col m10 offset-m1 s12">
-	            <h2 class="center-align">Contact Form</h2>
-	            <div class="row">
-	                <form class="col s12">
-	                    <div class="row">
-												<label for="fname">First Name</label>
-												<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-												<label for="lname">Last Name</label>
-												<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-												<label for="country">Country</label>
-												<select id="country" name="country">
-													<option value="australia">Australia</option>
-													<option value="canada">Canada</option>
-													<option value="usa">USA</option>
-												</select>
-
-												<label for="subject">Subject</label>
-												<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-	                    </div>
-	                    <div class="divider"></div>
-	                    <div class="row">
-	                        <div class="col m12">
-	                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
-	                        </div>
-	                    </div>
-	                </form>
-	            </div>
+	            <h1 class="header center black-text headerTitle">Contact Us</h1>
+							<div class="form-group row">
+								<div class="col s6">
+										<label for="example-text-input" class="col-2 col-form-label size">First Name</label>
+											<div class="col-10">
+												<input class="form-control" type="text" id="example-text-input">
+											</div>
+								</div>
+								<div class="col s6">
+										<label for="example-text-input" class="col-2 col-form-label size">Last Name</label>
+											<div class="col-10">
+												<input class="form-control" type="text" id="example-text-input">
+											</div>
+								</div>
+								<div class="col s12">
+									<label class="size">Country</label>
+										<select class="dropdown">
+								      <option value="" disabled selected>Choose your option</option>
+								      <option value="1">Option 1</option>
+								      <option value="2">Option 2</option>
+								      <option value="3">Option 3</option>
+								    </select>
+								</div>
+							</div>
 	        </div>
 	    </div>
 	</div>
@@ -120,5 +123,9 @@
     </footer>
 	<!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 </body>
 </html>
