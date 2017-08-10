@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.comicon?family=Material+Icons);
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url('https://fonts.googleapis.comicon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans&effect=3d|outline');
 
 .logo{
   font-family: 'Fjalla One', sans-serif;
