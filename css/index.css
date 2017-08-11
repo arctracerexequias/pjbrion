@@ -103,9 +103,15 @@ li.footerContent{
 li.links{
     font-family: 'Montserrat', sans-serif;
 }
-
+li.icons{
+    display: inline;
+    padding-right: 10px;
+    border: white 2px;
+    
+}
 img.icons{
     width: 40px;
     height: 40px;
     line-height: 5px;
+    border-color: white;
 }
