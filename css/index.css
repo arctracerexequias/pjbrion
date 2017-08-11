@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans&effect=3d|outline');
 @import url('https://fonts.googleapis.com/css?family=Hind&amp;subset=devanagari,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .logo{
   font-family: 'Fjalla One', sans-serif;
@@ -22,11 +24,11 @@ main{
 li.menu{
   text-transform: uppercase;
 }
-li:hover{
+li.menuBar:hover{
   background: #45b33d;
 }
 .activeTab{
-  background: #45b33d;
+    background: #45b33d;
 }
 .parallax {
     position: absolute;
@@ -77,4 +79,33 @@ textarea.layout{
 
 a{
   color: white;
+}
+
+p.footerContent{
+    font-size: 12px;
+    line-height: 5px;
+}
+
+h5.headerContent{
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: bold;
+    font-family: 'Patua One', sans-serif;
+}
+
+li.footerContent{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+li.links{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.icons{
+    width: 40px;
+    height: 40px;
+    line-height: 5px;
 }
