@@ -116,29 +116,12 @@ img.icons{
     border-color: white;
 }
 
-header{
-    position: relative;
-    width: 100%;
-    height: 75vh;
-    background-color: dimgrey;
-    margin-bottom: 1000px;
-    overflow: hidden;
-}
 
 .parallax-header-bg{
     position: absolute;
     width: 100%;
-    height: 300%;
-    background-image: url('../img/mountain.jpg');
+    height: 400%;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.parallax-header-bg2{
-    position: absolute;
-    width: 100%;
-    height: 300%;
-    background-image: url('https://static.pexels.com/photos/2220/red-sun-purple-dream.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    overflow: hidden;
 }
