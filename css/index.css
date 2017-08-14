@@ -116,8 +116,16 @@ img.icons{
     border-color: white;
 }
 
-
 .parallax-header-bg{
+    position: absolute;
+    width: 100%;
+    height: 400%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.parallax-header{
     position: absolute;
     width: 100%;
     height: 400%;
